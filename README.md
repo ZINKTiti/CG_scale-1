@@ -3,20 +3,19 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R69PMKTCXQBUU&source=url)
 
 
-Schwerpunktwaage auf Arduinobasis zum auswiegen von Flugmodellen. Es werden relativ wenige Bauteile benötigt, und sollte auch von Elektronikanfänger problemlos nachgebaut werden können.
-Die wichtigsten Funktionen:
+Balance basée sur Arduino pour peser les modèles d'avion. Relativement peu de composants sont requis et devraient être faciles à reproduire même pour les débutants. Les fonctions principales:
 
-- unterstützt Waagen mit 2 oder 3 Wiegezellen
-- unterstützt ESP8266 und Arduino mit ATmega328, ATmega32u4
-- automatische Kalibrierung anhand eines Referenzobjekts, dadurch kein mühsames eruieren der Kalibrierwerte
-- Anzeige durch OLED Display
-- Batteriespannnung kann gemessen werden
-- Einstellungen werden durch ein Menü per serieller Schnittstelle vorgenommen 
-- Beim ESP8266 können die Einstellungen auch bequem per Webpage vorgenommen werden
-- Parameter werden dauerhaft im EEprom gespeichert, und müssen nach einem Softwareupdate nicht neu parametriert werden
-- nur wenige Bauteile erforderlich, dadurch schnell und einfach aufgebaut
+ - supporte des balances avec 2 ou 3 capteurs
+ - prend en charge ESP8266 et Arduino avec ATmega328, ATmega32u4
+ - calibration automatique basée sur un objet de référence, donc pas de détermination fastidieuse des valeurs de calibration
+ - Affichage par sur écran OLED
+ - La tension de la batterie peut être mesurée
+ - Les réglages se font via un menu via une interface série
+ - Avec l'ESP8266, les réglages peuvent également être effectués facilement via la page Web
+ - Les paramètres sont enregistrés en permanence dans l'EEprom et ne doivent plus être paramétrés après une mise à jour logicielle
+ - seuls quelques composants sont nécessaires, ce qui permet une installation rapide et facile
 
-Weiter infos zum Aufbau findet man im [Wiki](https://github.com/nightflyer88/CG_scale/wiki)
+Plus d'informations sur la construction peuvent être trouvées dans [Wiki](https://github.com/nightflyer88/CG_scale/wiki)
 
 ![init](https://github.com/nightflyer88/CG_scale/blob/master/Doc/img/cgScale_init.jpeg)
 ![run](https://github.com/nightflyer88/CG_scale/blob/master/Doc/img/cgScale.jpeg)
